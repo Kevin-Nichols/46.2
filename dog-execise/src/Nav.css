@@ -1,0 +1,24 @@
+nav {
+  background-color: darkolivegreen;
+  text-align: center;
+  font-weight: bold;
+}
+
+nav a {
+  padding: 0.8em 0;
+  width: 10em;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  transition: .2s;
+}
+
+nav a.active {
+  color: rgb(68, 47, 0);
+  text-decoration: none;
+}
+nav a:hover {
+  transition: .2s;
+  color: rgb(68, 47, 0);
+  text-decoration: none;
+}

@@ -1,0 +1,18 @@
+.DogList img {
+  border: 2px solid darkolivegreen;
+  box-shadow: 0 0 5px #7a7a7a;
+  border-radius: 10%;
+  display: inline-block;
+  width: 15%;
+  transition: .3s;
+  margin-bottom: 20px;
+}
+
+.DogList img:hover {
+  transition: .3s;
+  border-radius: 40%;
+}
+
+.dog-name {
+  margin-bottom: 5px;
+}
